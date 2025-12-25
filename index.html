@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crianza de Tilapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-layer">
+            <div id="stats">
+                <p>Tilapias: <span id="fish-count">0</span></p>
+                <p>Dinero: $<span id="money">100</span></p>
+            </div>
+            <div id="controls">
+                <button id="feed-btn">Alimentar ($5)</button>
+                <button id="buy-fish-btn">Comprar Tilapia ($20)</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
